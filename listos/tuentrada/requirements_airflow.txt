@@ -1,0 +1,18 @@
+# Requirements optimizados para TuEntrada Scraper en Airflow/Contenedores
+selenium==4.15.2
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.2
+lxml==4.9.3
+pandas==2.1.4
+pytz==2023.3
+python-dateutil==2.8.2
+
+# Base de datos
+psycopg2-binary==2.9.9
+
+# Dependencias adicionales para contenedores
+chromium-browser
+chromium-chromedriver
+
+# Optimizaciones para contenedores
+psutil==5.9.6
